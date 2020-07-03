@@ -1,0 +1,9 @@
+/* Herança e Especifidade */
+
+#page p{
+    color: blue !important;
+}
+
+#page p{
+    color:  red;
+}

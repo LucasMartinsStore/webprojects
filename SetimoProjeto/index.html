@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muse Nacional</title>
+
+    <!--Normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--Css Custom-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div id="container"> <!--Inicio Container-->
+
+                <header> <!--Inicio cabecalhp-->
+
+                    <div id="logo"> <!--Logo inicio-->
+                        <h1><a href="#">Muse nacional</a></h1>
+                    </div> <!--logo fim-->
+
+                     <nav> <!--Incio Nav-->
+                         <ul>
+                             <li><a href="#">Home</a></li>
+                             <li><a href="#">Exposições</a></li>
+                             <li><a href="#">Pesquisa</a></li>
+                             <li><a href="#">Acervo</a></li>
+                             <li><a href="#">Vídeos</a></li>
+                             <li><a href="#">Fotos</a></li>
+                             <li><a href="#">Contato</a></li>
+
+                         </ul> <!--Fim Nav-->
+                     </nav>
+                </header> <!--Fim cabeçalho-->
+
+                <div id="main"> <!--Principal Inicio-->
+
+                    <div id="content"> <!--Inicio conteudo-->
+                        <section id="capa">
+                            <img src="img/museu.png" alt="Muse imagem">
+                        </section>
+                    </div> <!--Fim conteudo-->
+
+                    <aside>
+                        <section id="depoimento">
+                            <img src="img/depoimento.png" alt="Depoimento imagem">
+                        </section>
+
+                        <section id="visita"><!--Inicio Visitada-->
+                            <h4>Faça uma visita</h4>
+                            <form action="">
+                                <fieldset>
+                                    <legend>Selecione uma data</legend>
+                                    <label for="data">Data</label>
+                                    <input class="campo" type="date" id="data">
+
+                                    <label for="people">Qtd pessoas</label>
+                                    <input class="campo" style="width:30px" type="number" min="1" max="5" id="people" placeholder="qtd max 5">
+
+                                    <input class="botao" style="margin-top:10px" type="submit" value="Verificar Disponibilidade">
+                                </fieldset>
+                            </form>
+                        </section> <!--Fim Visitada-->
+
+                        <section id="galeria">
+                            
+                            <h4>Galeria de Fotos</h4>
+                            <a href="#">
+                                <img src="img/imagem1.jpg" height="93px" width="93px" alt="Imagem 1">
+                            </a>
+
+                            <a href="#">
+                                <img src="img/imagem2.jpg" height="93px" width="93px" alt="Imagem 2">
+                            </a>
+
+                     
+                            <a href="#">
+                                <img src="img/imagem3.jpg" height="93px" width="93px" alt="Imagem 3">
+                            </a>
+
+                            <a href="#">
+                                <img src="img/imagem4.jpg" height="93px" width="93px" alt="Imagem 4">
+                            </a>
+                        </section>
+                    </aside>
+                </div> <!--Principal Fim-->
+    </div> <!--Fim Container-->
+    
+</body>
+</html>
